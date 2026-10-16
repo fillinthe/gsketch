@@ -27,12 +27,12 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple Silicon and Intel) | `GSketch-0.1.0-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GSketch-0.1.0-Windows-x64.zip` |
-| Windows 7 / 8 (64-bit) | `GSketch-0.1.0-Windows-win7-x64.zip` |
-| Windows 7 / 8 (32-bit) | `GSketch-0.1.0-Windows-win7-x86.zip` |
-| Linux x86_64 | `GSketch-0.1.0-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.0-Linux-aarch64.tar.gz` |
+| macOS (Apple Silicon and Intel) | `GSketch-0.1.1-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GSketch-0.1.1-Windows-x64.zip` |
+| Windows 7 / 8 (64-bit) | `GSketch-0.1.1-Windows-win7-x64.zip` |
+| Windows 7 / 8 (32-bit) | `GSketch-0.1.1-Windows-win7-x86.zip` |
+| Linux x86_64 | `GSketch-0.1.1-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.1-Linux-aarch64.tar.gz` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
@@ -42,7 +42,7 @@ Get the file for your computer from the [latest release](../../releases/latest).
 - **Windows:** unzip, run `gsketch.exe`. It is not code-signed yet, so SmartScreen may say "unknown publisher": **More info → Run anyway**.
 - **Linux:** `tar xzf` the file, then run `./gsketch` (or `./install.sh` to add it to your applications menu).
 
-No account is needed on the desktop: models are `.gsk` files on your computer. Signing in with a free account (the same one as GCarve) adds cloud models shared with the online version.
+No account is needed on the desktop: models are `.gsk` files on your computer. To get the models you saved online, choose **Sign in** › **Sign in with your browser**: the website opens, you sign in there the way you always do (email link, passkey or password) and allow the computer; then **File › Open from Account** lists your models. The account is free and the same one as GCarve.
 
 ## System requirements
 
