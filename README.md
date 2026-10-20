@@ -27,12 +27,12 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple Silicon and Intel) | `GSketch-0.1.4-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GSketch-0.1.4-Windows-x64.zip` |
-| Windows 7 / 8 (64-bit) | `GSketch-0.1.4-Windows-win7-x64.zip` |
-| Windows 7 / 8 (32-bit) | `GSketch-0.1.4-Windows-win7-x86.zip` |
-| Linux x86_64 | `GSketch-0.1.4-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.4-Linux-aarch64.tar.gz` |
+| macOS (Apple Silicon and Intel) | `GSketch-0.1.5-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GSketch-0.1.5-Windows-x64.zip` |
+| Windows 7 / 8 (64-bit) | `GSketch-0.1.5-Windows-win7-x64.zip` |
+| Windows 7 / 8 / 10 (32-bit) | `GSketch-0.1.5-Windows-win7-x86.zip` |
+| Linux x86_64 | `GSketch-0.1.5-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.5-Linux-aarch64.tar.gz` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
@@ -46,7 +46,7 @@ No account is needed on the desktop: models are `.gsk` files on your computer. T
 
 ## System requirements
 
-- **macOS:** Apple silicon or Intel.
+- **macOS:** Apple silicon, or Intel with macOS 10.12 or newer.
 - **Windows:** 10 or 11 (64-bit), or 7 / 8 (64-bit and 32-bit builds). No installer, no admin rights.
 - **Linux:** x86-64 or ARM64, glibc 2.30 or newer (Debian 11, Ubuntu 20.04 and later).
 - **All:** OpenGL 2.0 graphics (any driver of the last ~15 years; Mesa is fine).
