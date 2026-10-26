@@ -27,18 +27,18 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple Silicon and Intel) | `GSketch-0.1.9-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GSketch-0.1.9-Windows-x64.zip` |
-| Windows 7 / 8 (64-bit) | `GSketch-0.1.9-Windows-win7-x64.zip` |
-| Windows 7 / 8 / 10 (32-bit) | `GSketch-0.1.9-Windows-win7-x86.zip` |
-| Linux x86_64 | `GSketch-0.1.9-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.9-Linux-aarch64.tar.gz` |
+| macOS (Apple Silicon and Intel) | `GSketch-0.1.10-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GSketch-0.1.10-Windows-x64.zip` |
+| Windows 7 / 8 (64-bit) | `GSketch-0.1.10-Windows-win7-x64.zip` |
+| Windows 7 / 8 / 10 (32-bit) | `GSketch-0.1.10-Windows-win7-x86.zip` |
+| Linux x86_64 | `GSketch-0.1.10-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.10-Linux-aarch64.tar.gz` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
 ### First start
 
-- **macOS:** open the .dmg, drag GSketch to Applications. The app is not notarized by Apple yet, so the first time right-click it and choose **Open**.
+- **macOS:** open the .dmg, drag GSketch to Applications. It is signed and notarized by Apple, so it opens with no warning.
 - **Windows:** unzip, run `gsketch.exe`. It is not code-signed yet, so SmartScreen may say "unknown publisher": **More info → Run anyway**.
 - **Linux:** `tar xzf` the file, then run `./gsketch` (or `./install.sh` to add it to your applications menu).
 
