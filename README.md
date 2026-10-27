@@ -27,12 +27,12 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple Silicon and Intel) | `GSketch-0.1.12-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GSketch-0.1.12-Windows-x64.zip` |
-| Windows 7 / 8 (64-bit) | `GSketch-0.1.12-Windows-win7-x64.zip` |
-| Windows 7 / 8 / 10 (32-bit) | `GSketch-0.1.12-Windows-win7-x86.zip` |
-| Linux x86_64 | `GSketch-0.1.12-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.12-Linux-aarch64.tar.gz` |
+| macOS (Apple Silicon and Intel) | `GSketch-0.1.13-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GSketch-0.1.13-Windows-x64.zip` |
+| Windows 7 / 8 (64-bit) | `GSketch-0.1.13-Windows-win7-x64.zip` |
+| Windows 7 / 8 / 10 (32-bit) | `GSketch-0.1.13-Windows-win7-x86.zip` |
+| Linux x86_64 | `GSketch-0.1.13-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GSketch-0.1.13-Linux-aarch64.tar.gz` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
