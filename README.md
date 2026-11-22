@@ -74,6 +74,6 @@ The browser version at [gsketch.app/app](https://gsketch.app/app/) is the same p
 
 ## Licence
 
-GSketch is free to use. The program and its files are © Fill in the Blank, all rights reserved; see [LICENSE.md](LICENSE.md), the [Terms](https://gworkshop.app/terms/) and [Privacy](https://gworkshop.app/privacy/) pages. This repository holds the downloads and release notes only; it is not the source code.
+GSketch is free to use. The program and its files are © Fill in the Blank, all rights reserved; see [LICENSE](LICENSE), the [Terms](https://gworkshop.app/terms/) and [Privacy](https://gworkshop.app/privacy/) pages. This repository holds the downloads and release notes only; it is not the source code.
 
 SketchUp is a trademark of Trimble Inc. GSketch is not affiliated with or endorsed by Trimble.
