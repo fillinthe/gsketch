@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/fillinthe/gsketch/total?color=1a73e8)](https://github.com/fillinthe/gsketch/releases)
 [![Web app](https://img.shields.io/badge/try%20it-gsketch.app-f39c12)](https://gsketch.app/app/)
 
-[**Download**](https://github.com/fillinthe/gsketch/releases/latest) · [Use it online](https://gsketch.app/app/) · [Website](https://gsketch.app) · [Support](https://gcarve.app/support/) · [Donate](https://gsketch.app/donate/)
+[**Download**](https://github.com/fillinthe/gsketch/releases/latest) · [Use it online](https://gsketch.app/app/) · [Website](https://gsketch.app) · [User manual](https://gsketch.app/docs/) · [Support](https://gworkshop.app/support/) · [Donate](https://gsketch.app/donate/)
 
 ![GSketch](docs/screenshot.png)
 
@@ -18,8 +18,8 @@
 - **Inference:** endpoints, midpoints, edges, faces, the red / green / blue axes, parallel and perpendicular to an edge, guide lines from the tape measure and protractor. Arrow keys lock an axis.
 - **Organise:** groups and components, tags, scenes, an outliner, section planes, shadows by time of day, X-ray and wireframe, dimensions and text, 3D text, paint and wood grain.
 - **For the shop:** a cabinet builder, a cut list and a printable cut sheet, and **Send to GCarve**: the flat panels go to GCarve one layer per stock thickness, ready for toolpaths.
-- **Files:** opens SketchUp COLLADA (.dae) and STL exports, OBJ, DXF and SVG; exports STL, COLLADA (back to SketchUp), PNG images and panels as SVG / DXF. Saves `.gsk`.
-- **Any mouse:** SketchUp, Fusion 360, Blender and VCarve mouse styles; no middle button needed (trackpad swipe orbits, pinch zooms, ⌥ / ⌃ / ⌘ + drag orbit / pan / zoom); 3Dconnexion SpaceMouse; ⌘K command palette and a searchable "How do I…?" guide.
+- **Files:** opens SketchUp `.skp` files (all versions), COLLADA (.dae), glTF / GLB, STL, OBJ, DXF and SVG; exports SketchUp `.skp`, STL, COLLADA, PNG images, scaled drawings as PDF and panels as SVG / DXF. Saves `.gsk`.
+- **Any mouse:** SketchUp, Fusion 360, Blender and VCarve mouse styles; no middle button needed (trackpad swipe orbits, pinch zooms, ⌥ / ⌃ / ⌘ + drag orbit / pan / zoom); 3Dconnexion SpaceMouse; ⌘K command palette; Help › User Manual opens the online manual in your language.
 
 ## Download
 
@@ -42,7 +42,7 @@ Get the file for your computer from the [latest release](../../releases/latest).
 - **Windows:** unzip, run `gsketch.exe`. It is not code-signed yet, so SmartScreen may say "unknown publisher": **More info → Run anyway**.
 - **Linux:** `tar xzf` the file, then run `./gsketch` (or `./install.sh` to add it to your applications menu).
 
-No account is needed on the desktop: models are `.gsk` files on your computer. To get the models you saved online, choose **Sign in** › **Sign in with your browser**: the website opens, you sign in there the way you always do (email link, passkey or password) and allow the computer; then **File › Open from Account** lists your models. The account is free and the same one as GCarve.
+No account is needed on the desktop: models are `.gsk` files on your computer. To get the models you saved online, choose **Sign in** › **Sign in with your browser**: the website opens, you sign in there the way you always do (email link, passkey or password) and allow the computer; then **File › Open from Account** lists your models. The account is free: one G Workshop account for GSketch, GCarve and the other apps.
 
 ## System requirements
 
@@ -61,7 +61,7 @@ The browser version at [gsketch.app/app](https://gsketch.app/app/) is the same p
 
 **Is it SketchUp?** No. GSketch is an independent app that works the way SketchUp users expect: the same kind of tools, the same shortcuts (Space, L, R, C, P, M, Q, T…), the same push/pull way of building. Trimble has nothing to do with it.
 
-**Can I open my SketchUp files?** Through an export: in SketchUp, File › Export › 3D Model as COLLADA (.dae) or STL, then open it in GSketch. Faces come back ready to push and pull. Export COLLADA from GSketch to take a model back. The `.skp` format itself is closed.
+**Can I open my SketchUp files?** Yes: open or drop a `.skp` file (any version) and its faces, groups, components, colours and textures come in ready to push and pull. File › Export SketchUp (.skp) takes a model back.
 
 **Does it work offline?** Yes.
 
@@ -69,11 +69,11 @@ The browser version at [gsketch.app/app](https://gsketch.app/app/) is the same p
 
 ## Help and feedback
 
-- Questions, bugs and requests: [gcarve.app/support](https://gcarve.app/support/).
+- Questions, bugs and requests: [gworkshop.app/support](https://gworkshop.app/support/).
 - Please attach the `.gsk` file that went wrong and say what you clicked.
 
 ## Licence
 
-GSketch is free to use. The program and its files are © Fill in the Blank, all rights reserved; see [LICENSE.md](LICENSE.md), the [Terms](https://gcarve.app/terms/) and [Privacy](https://gcarve.app/privacy/) pages. This repository holds the downloads and release notes only; it is not the source code.
+GSketch is free to use. The program and its files are © Fill in the Blank, all rights reserved; see [LICENSE.md](LICENSE.md), the [Terms](https://gworkshop.app/terms/) and [Privacy](https://gworkshop.app/privacy/) pages. This repository holds the downloads and release notes only; it is not the source code.
 
 SketchUp is a trademark of Trimble Inc. GSketch is not affiliated with or endorsed by Trimble.
